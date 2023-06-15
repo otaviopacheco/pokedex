@@ -1,0 +1,55 @@
+main{
+    padding: 25px;
+}
+main .listagem-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+main .card-poke{
+    background-color:var(--cardColor);
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+main .card-poke:hover{
+    background-color: var(--cardHover);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+main .card-poke .info{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--darkTextColor);
+    border-radius:105px;
+}
+main .card-poke .info span{
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+main .card-poke .mega-info{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+main .card-poke .tipagem{
+    
+    display: flex;
+    gap: 15px;
+}
+main .card-poke .type{
+    padding: 8px;
+    border-radius: 10px;
+}
+main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}

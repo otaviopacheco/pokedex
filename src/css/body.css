@@ -1,0 +1,7 @@
+body{
+    font-family: var(--fontePrincipal);
+    max-width: 1280px;
+    margin: 0 auto;
+    background: var(--bodyColor);
+    color: var(--textBodyColor);
+}

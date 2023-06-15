@@ -1,0 +1,9 @@
+.dark-Mode{
+    background-color: var(--darkMode);
+    color: var(--colorDeTextoClara);
+    transition: 0.2s ease-in-out;
+}
+.dark-Mode .card-poke{
+    background-color: var(--colorDarkCard);
+    color: var(--lightTextColor);
+}

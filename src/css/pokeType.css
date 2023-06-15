@@ -1,0 +1,28 @@
+.grass{
+    background-color: var(--grassType);
+
+}
+.poison{
+    background-color: var(--poisonType);
+}
+.fire{
+    background-color: var(--fireType);
+}
+.flying{
+    background-color: var(--flyingType);
+}
+.water{
+    background-color: var(--waterType);
+}
+.bug{
+    background-color: var(--bugType);
+}
+
+.dragon{
+    background-color: var(--dragonType);
+
+}
+#rbga-mega-evo{
+    background: rgb(255,200,82);
+    background: linear-gradient(0deg, rgba(255,200,82,1) 11%, rgba(34,195,66,1) 45%, rgba(45,147,253,1) 65%, rgba(199,75,188,1) 85%);
+}

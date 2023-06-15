@@ -1,0 +1,40 @@
+:root{
+    /* fonte */
+    --fontePrincipal:'Inter', sans-serif;
+    /* body */
+    --bodyColor: #5e5b5bad;
+    --textBodyColor:rgb(24, 22, 22);
+    /* cores de texto */
+    --darkTextColor: #333333;
+    --lightTextColor:#f5f5f5;
+    /* card */
+    --cardColor:#d8e3ec;
+    --cardHover:#96d9d6;
+    /* modo noturno */
+    --colorDarkCard:#a8a8a8;
+    --darkMode: #212121;  
+    /* tipos */
+    --fireType: #ee8130;
+    --waterType:#6390f0;
+    --grassType:#7ac74c;
+    --bugType: #A8B820;
+    --flyingType: #A890F0;
+    --poisonType:#df67ddfb;
+    --dragonType:#7038F8;
+    /* webkit scroll */
+    --backgroundScroll: #f1e9e9;
+    --backgroundScrollColor: #582965;
+    --borderScroll: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+main .card-poke .gif{
+    width: 90px;
+    height: 90px;
+}

@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+header .logo, 
+.imagem-botao{
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+header .logo:hover,
+.imagem-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
